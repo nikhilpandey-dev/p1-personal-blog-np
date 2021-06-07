@@ -49,3 +49,14 @@ body {
     text-align: center;
     font-size: 1rem;
 }
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.figure {
+    width: 50vw;
+    aspect-ratio: 3 / 2;
+}
