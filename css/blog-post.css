@@ -26,7 +26,7 @@ body {
 }
 
 .author-info {
-    width: 340px;
+    width: 300px;
     max-width: 95vw;
     border: 2px solid #17a589;
     display: flex;
@@ -59,4 +59,18 @@ body {
 .figure {
     width: 50vw;
     aspect-ratio: 3 / 2;
+}
+.blog-text {
+    display: flex;
+   flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 20px;
+    font-size: 1.1rem;
+}
+
+.blog-text .abstract {
+    font-style: oblique;
+    font-weight: bold;
 }
