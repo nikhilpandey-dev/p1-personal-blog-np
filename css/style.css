@@ -3,7 +3,9 @@
 @import url("sidebar.css");
 @import url("footer.css");
 
-
+/* 
+Design is inspired by this codepen: https://codepen.io/jmegs/pen/opbyXg
+ */
 
 #main-area {
     width: 100vw;

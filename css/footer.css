@@ -1,6 +1,10 @@
 @import url("fonts-import.css");
 @import url("general-styling.css");
 
+/* 
+ Based on modification of this code pen : https://codepen.io/slstudios/pen/mJqjeP
+ */
+
 .footer-distributed {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
