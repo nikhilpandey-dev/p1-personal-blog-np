@@ -6,8 +6,9 @@
  @import url("navbar-styling.css");
  @import url("footer.css");
 
-
+ 
 .heading {
+    
     max-width: 95vw;
     display: flex;
     flex-flow: column wrap;
@@ -15,7 +16,7 @@
     align-items: center;
     padding: 1rem auto;
     margin: 1.5rem auto;
-    border: 2px solid #17a589;
+    
 }
 
 .author-info {
