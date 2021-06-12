@@ -1,33 +1,21 @@
+@import url("fonts-import.css");
+@import url("navbar-styling.css");
+@import url("footer.css");
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-#navbar {
-    background: #ddd;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-}
-
-#navbar a {
-    color: #444;
-    padding: 1rem 1.5rem;
-    text-decoration: none;
-}
-
-#navbar a:hover {
-    background-color: #444;
-    color: #ddd;
-    
-}
 
 #sidebar {
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: center;
+    background-color: #ddd;
+    grid-area: sd ;
 }
 
 #sidebar a {
@@ -38,7 +26,7 @@
     border: 2px dotted red;
 }
 
-footer {
+/* footer {
     background: #ddd;
     display: flex;
     flex-flow: row wrap;
@@ -48,7 +36,7 @@ footer {
     margin: 10px 0px;
     font-weight: bold;
 
-}
+} */
 
 #main-area {
     width: 100vw;
@@ -62,10 +50,10 @@ footer {
     padding: 1rem;
 }
 
-#sidebar {
+/* #sidebar {
     background-color: #ddd;
     grid-area: sd ;
-}
+} */
 #main-content {
     margin: 0 auto;
     display: grid;
@@ -141,14 +129,14 @@ button {
    color: #444;
    font-weight: bold;
 }
-footer {
+/* footer {
     width: 100%;
     height: 3rem;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 16px;
     margin-right: 16px;
-}
+} */
 
 @media screen and (max-width: 60rem) {
 
