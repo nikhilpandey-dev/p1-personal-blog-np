@@ -2,14 +2,10 @@
     1. Color pallette is inspired by medium blog post pages.
     2. Avatar size is being set as general and one of the most common avatar size 60px ❌ 60px 
  */
- @import url("fonts-import.css");
+ @import url("general-styling.css");
  @import url("navbar-styling.css");
  @import url("footer.css");
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0pt;
-}
+
 
 .heading {
     max-width: 95vw;
